@@ -54,7 +54,7 @@ public:
             p = (l + r) * 0.5;
         }
 
-        // Here, p must equal to l and r may be equal or less than l.
+        // Here, p must be equal to l and r may be equal or less than l.
         if (nums[p] == target) {
             res[0] = res[1] = p;
         }
