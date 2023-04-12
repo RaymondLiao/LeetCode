@@ -7,7 +7,6 @@
    leaving only distinct numbers from the original list. Return the linked list sorted as well.
 */
 
-
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -18,6 +17,7 @@
  *     ListNode(int x, ListNode *next) : val(x), next(next) {}
  * };
  */
+
 class Solution {
 public:
     ListNode* deleteDuplicates(ListNode* head) {
